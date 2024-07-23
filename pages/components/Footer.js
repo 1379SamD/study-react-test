@@ -1,6 +1,6 @@
 import styles from "@/styles/Home.module.css";
 
-export function Footer() {
+export default function Footer() {
   return (
     <div className={styles.grid}>
       <a

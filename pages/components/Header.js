@@ -1,7 +1,7 @@
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 
-export function Header() {
+export default function Header() {
   return (
     <div className={styles.description}>
       <p>

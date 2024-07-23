@@ -1,7 +1,7 @@
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 
-export function BodyImage() {
+export default function BodyImage() {
   return (
     <div className={styles.center}>
       <Image
