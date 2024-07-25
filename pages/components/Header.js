@@ -1,13 +1,14 @@
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 
-export default function Header() {
+export default function Header(props) {
+  console.log(props.title);
   return (
     <div className={styles.description}>
       <p>
         {/* Get started by editing&nbsp;
       <code className={styles.code}>pages/index.js</code> */}
-        Index Page
+        {props.title}
       </p>
       <div>
         <a
